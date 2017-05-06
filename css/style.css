@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #636363;
+  font-family: arial;
+}
+img {
+  max-width: 100%; display: block;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header-section {
+
+}
+.logo {
+  float: left;
+  width: 20%;
+}
+.logo img {
+  width: 100%;
+}
+nav {
+  width: 80%;
+  float: left;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #b5b5b5;
+  padding: 10px;
+  display: block;
+}
+nav ul li a:hover {
+  color: #7cc576;
+}
+
+.banner-section {
+  
+}
+.banner-content {
+  text-align: center;
+  padding: 10em;
+
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.banner-content h1 {
+  font-size: 3em;
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+}
+.banner-content p {
+  color: white;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.banner-content a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #7cc576;
+  color: #fff;
+  font-weight: 500;
+  padding: 1em;
+  display: inline-block;
+  border-radius: 50px;
+}
+.banner-content a:hover {
+
+}
+
+/** Service Section Styling **/
+.services-section {
+  padding: 5em 0;
+}
+
+
+.heading {
+    text-align: center;
+}
+.heading h1 {
+  font-size: 30px;
+      margin: 0;
+      text-transform: uppercase;
+}
+.heading p {
+margin: 3px;
+}
+
+
+.services-section .services {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.services-section .services i {
+    font-size: xx-large;
+}
+.services-section .services h2 {
+  margin: 0;
+      margin-top: 10px;
+      text-transform: capitalize;
+      font-size: 20px;
+}
+.services-section .services p {
+  margin: 10px;
+      font-size: 1em;
+}
+
+/*Relax Section Styling*/
+.relax-section .container {
+  background: lightgray;
+  overflow: hidden;
+}
+.relax-section .relax-part {
+  width: 70%;
+      float: right;
+      background-image: url(../images/relax-part.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.relax-section .relax-part .relax-content {
+padding: 80px;
+}
+.relax-section .relax-part .relax-content h1 {
+  margin: 0;
+      font-size: 2em;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 900;
+      line-height: 1.1;
+}
+.relax-section .relax-part .relax-content h1 span {
+    color: #7cc576;
+}
+.relax-section .relax-part .relax-content p {
+    text-transform: capitalize;
+}
+
+.relax-section .relax-part .relax-content ul {
+  margin: 0;
+      padding: 0;
+  }
+}
+.relax-section .relax-part .relax-content ul li {
+  list-style: none;
+      font-size: 20px;
+}
+.relax-section .relax-part .relax-content ul li i {
+
+}
+.relax-section .relax-part .relax-content a {
+  text-decoration: none;
+      text-transform: uppercase;
+      background: #7cc576;
+      color: #fff;
+      font-weight: 500;
+      padding: 15px;
+      display: inline-block;
+      border-radius: 40px;
+      margin-top: 15px;
+}
+
+
+/*Client Section Styling*/
+.client-section {
+  padding: 5em 0;
+}
+.client {
+  overflow: hidden;
+}
+.client-image {
+  width: 15%;
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.client-image img {
+
+  margin-left: 0 auto;
+}
+
+.client-feedback {
+  width: 85%;
+  float: left;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+.client-feedback .feedback {
+
+}
+.client-feedback .feedback p {
+
+}
+.client-feedback .feedback em {
+  font-style: italic;
+}
+.contact {
+  height: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7cc576;
+}
+.contact h1 {
+  padding: 35px;
+  color: #fff;
+}
+.button {
+    background-color: #4CAF50;
+    border: #fff;
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -14px 0px;
+    transition-duration: 0.4s;
+    cursor: auto;
+    border-radius: 6px;
+}
+.button1 {
+  background-color: #4CAF50;
+    color: black;
+    border: 2px solid white;
+}
+.button1:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+.companies {
+  height: 100px;
+}
+.companies .image-holder {
+
+}
+.companies .image-holder ul {
+  margin: 0;
+  padding: 0;
+}
+.companies .image-holder ul li {
+    float: left;
+    width: 20%;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+.companies img {
+  max-width: 100%;
+  display: block;
+}
+.footer {
+  text-align: center;
+  background-color: #d3d3d3;
+  height: 50px;
+}
+.copyright {
+  float: left;
+}
+.social {
+  float: left;
+  margin-left: 40%;
+  color: #7c5e8b;
+}
+.copyright .social {
+  padding-top: 20px;
+}

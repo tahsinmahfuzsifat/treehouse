@@ -132,6 +132,7 @@ margin: 3px;
 }
 .relax-section .relax-part {
   width: 70%;
+      color: lemonchiffon;
       float: right;
       background-image: url(../images/relax-part.jpg);
       background-repeat: no-repeat;
